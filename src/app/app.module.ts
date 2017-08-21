@@ -26,6 +26,12 @@ import {Child111Component} from './test-ng-on-change/child111/child111.component
 /*import {TestDynamicComponent2Component} from './test-dynamic-component2/test-dynamic-component2.component';*/
 import { TestDynamicComponentComponent } from './test-dynamic-component/test-dynamic-component.component';
 import { ChilcOneComponent } from './test-dynamic-component/chilc-one/chilc-one.component';
+import { TestShadowDomComponent } from './test-shadow-dom/test-shadow-dom.component';
+import { TestEmulatedModeComponent } from './test-emulated-mode/test-emulated-mode.component';
+import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component';
+import { TestNgContentComponent } from './test-ng-content/test-ng-content.component';
+import { ChildTwoComponent } from './test-ng-content/child-two/child-two.component';
+import { ChildThreeComponent } from './test-ng-content/child-three/child-three.component';
 
 
 @NgModule({
@@ -53,6 +59,12 @@ import { ChilcOneComponent } from './test-dynamic-component/chilc-one/chilc-one.
      /*   TestDynamicComponent2Component,*/
         TestDynamicComponentComponent,
         ChilcOneComponent,
+        TestShadowDomComponent,
+        TestEmulatedModeComponent,
+        TestNoneModeComponent,
+        TestNgContentComponent,
+        ChildTwoComponent,
+        ChildThreeComponent,
 
     ],
     imports: [

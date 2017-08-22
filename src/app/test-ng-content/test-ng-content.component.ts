@@ -11,5 +11,7 @@ export class TestNgContentComponent implements OnInit {
 
   ngOnInit() {
   }
-
+public doing(data):void{
+    console.log(data)
+}
 }

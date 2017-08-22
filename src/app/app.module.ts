@@ -32,6 +32,7 @@ import { TestNoneModeComponent } from './test-none-mode/test-none-mode.component
 import { TestNgContentComponent } from './test-ng-content/test-ng-content.component';
 import { ChildTwoComponent } from './test-ng-content/child-two/child-two.component';
 import { ChildThreeComponent } from './test-ng-content/child-three/child-three.component';
+import { TestContentChildComponent } from './test-content-child/test-content-child.component';
 
 
 @NgModule({
@@ -65,6 +66,7 @@ import { ChildThreeComponent } from './test-ng-content/child-three/child-three.c
         TestNgContentComponent,
         ChildTwoComponent,
         ChildThreeComponent,
+        TestContentChildComponent,
 
     ],
     imports: [

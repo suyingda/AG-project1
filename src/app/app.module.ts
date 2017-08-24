@@ -33,6 +33,7 @@ import { TestNgContentComponent } from './test-ng-content/test-ng-content.compon
 import { ChildTwoComponent } from './test-ng-content/child-two/child-two.component';
 import { ChildThreeComponent } from './test-ng-content/child-three/child-three.component';
 import { TestContentChildComponent } from './test-content-child/test-content-child.component';
+import { MyHighLightDirective } from './common-directive/my-high-light.directive';
 
 
 @NgModule({
@@ -67,6 +68,7 @@ import { TestContentChildComponent } from './test-content-child/test-content-chi
         ChildTwoComponent,
         ChildThreeComponent,
         TestContentChildComponent,
+        MyHighLightDirective,
 
     ],
     imports: [
